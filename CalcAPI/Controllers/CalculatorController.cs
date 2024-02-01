@@ -32,7 +32,7 @@ public class CalculatorController : ControllerBase
 
     public IActionResult Add(decimal numerator, decimal denominator)
     {       
-        decimal result= numerator*denominator;
+        decimal result= numerator+denominator;
         return Ok(result);
     }
     
@@ -42,10 +42,11 @@ public class CalculatorController : ControllerBase
 
  public IActionResult Subtract(decimal numerator, decimal denominator)
     {       
-        decimal result= numerator*denominator;
+        decimal result= numerator-denominator;
         return Ok(result);
     }
    
+
 
     [HttpGet]
 
