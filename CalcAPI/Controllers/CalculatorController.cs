@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+namespace CalculatorAPI.controllers;
 
 [ApiController]
 [Route("[controller]/[action]")]
